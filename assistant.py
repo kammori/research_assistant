@@ -4,7 +4,8 @@ import streamlit as st
 from streamlit_chat import message
 
 import openai
-openai.api_key = os.environ["OPENAI_API_KEY"]
+openai.api_key = os.environ["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
+"]
 
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts.chat import (
